@@ -1,12 +1,9 @@
 import React from "react";
-import IntervalCounter from "./IntervalCounter";
-import IntervalHookCounter from "./IntervalHookCounter";
-
+import DataFetching from "./DataFetching";
 function App() {
   return (
     <div className="App">
-      <IntervalCounter />
-      <IntervalHookCounter />
+      <DataFetching />
     </div>
   );
 }
