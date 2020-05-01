@@ -1,9 +1,12 @@
 import React from "react";
-import HookMouse from "./HookMouse";
+import IntervalCounter from "./IntervalCounter";
+import IntervalHookCounter from "./IntervalHookCounter";
+
 function App() {
   return (
     <div className="App">
-      <HookMouse />
+      <IntervalCounter />
+      <IntervalHookCounter />
     </div>
   );
 }
